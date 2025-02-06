@@ -9,4 +9,7 @@ _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](
 - Assignment #1 - Locating a Dataset
     - Importing data and initial dataset exploration (Master dataset not available on repository). 
 - Assignment #2 - Cleaning our Dataset
-    - Preparing our dataset for our future class database (Master dataset not available on repository). 
+    - Preparing our dataset for our future class database (Master dataset not available on repository).
+- Assignment #3 - Metadata
+    - Creating a metadata file with all necessary components
+
