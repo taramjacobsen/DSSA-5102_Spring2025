@@ -3,7 +3,7 @@
 _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](https://www.stockton.edu/)
 
 ### Languages & Environment:
-- SQL, Anaconda Navigator, Jupyter Notebook, Github, Spyder
+- Python, SQL, Anaconda Navigator, Jupyter Notebook, Github, Spyder
 
 ### Assignments:
 - Assignment #1 - Locating a Dataset
@@ -13,3 +13,4 @@ _Data Science and Strategic Analytics Graduate Program_ - [Stockton University](
 - Assignment #3 - Metadata
     - Creating a metadata file with all necessary components
 
+### Student Repositories:
