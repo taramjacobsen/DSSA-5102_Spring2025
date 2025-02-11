@@ -110,7 +110,7 @@ Variable Descriptions
 |transit_midpoint_upper_unc_days |Upper uncertainty in the transit midpoint |
 |transit_midpoint_lower_unc_days | Lower uncertainty in the transit midpoint |
 |transit_midpoint_limit_flag |Flag indicating whether the transit midpoint is based on a limit (-1=yes, 0=no) |
-| transit_midpoint_time_system| |
+| transit_midpoint_time_system| Time system used to record the transit midpoint|
 | data_show_transit_timing_variations| Flag indicating if the planet orbit exhibits transit timing variations from another planet in the system (1=yes, 0=no).|
 | impact_parameter| The sky-projected distance between the center of the stellar disc and the center of the planet disc at conjunction, normalized by the stellar radius|
 |impact_parameter_upper_unc |Upper uncertainty in the impact parameter |
@@ -144,20 +144,20 @@ Variable Descriptions
 |radial_velocity_amplitude_ms |Half the peak-to-peak amplitude of variability in the stellar radial velocity (m/s) |
 | radial_velocity_amplitude_upper_unc_ms| Upper uncertainty in the radial velocity amplitude |
 |radial_velocity_amplitude_lower_unc_ms |Lower uncertainty in the radial velocity amplitude |
-|radial_velocity_amplitude_limit_flag |Flag indicating whether the radial velocity amplitude between the orbit's ascending node and periastron is based on a limit (-1=yes, 0=no) |
+|radial_velocity_amplitude_limit_flag |Flag indicating whether the radial velocity amplitude is based on a limit (-1=yes, 0=no) |
 |projected_obliquity_deg |The angle between the angular momentum vector of the rotation of the host star and the angular momentum vector of the orbit of the planet, projected into the plane of the sky. Depending on the choice of coordinate system, projected obliquity is represented in the literature as either lambda (λ) or beta (β), where λ is defined as the negative of β (i.e., λ = -β). Since λ is reported more often than β, all values of β have been converted to λ.|
 |projected_obliquity_upper_unc_deg | Upper uncertainty in the projected obliquity degree |
 | projected_obliquity_lower_unc_deg|Lower uncertainty in the projected obliquity degree |
-| projected_obliquity_limit_flag|Flag indicating whether the projected obliquity degree between the orbit's ascending node and periastron is based on a limit (-1=yes, 0=no) |
+| projected_obliquity_limit_flag|Flag indicating whether the projected obliquity degree is based on a limit (-1=yes, 0=no) |
 |true_obliquity_deg | The angle between the angular momentum vector of the rotation of the host star and the angular momentum vector of the orbit of the planet (degrees)|
-|true_obliquity_upper_unc_deg | |
-|true_obliquity_lower_unc_deg | |
-|true_obliquity_limit_flag | |
+|true_obliquity_upper_unc_deg |Upper uncertainty in the true obliquity degree |
+|true_obliquity_lower_unc_deg |Lower uncertainty in the true obliquity degree |
+|true_obliquity_limit_flag |Flag indicating whether the true obliquity degree is based on a limit (-1=yes, 0=no) |
 |spectral_type | Classification of the star based on their spectral characteristics following the Morgan-Keenan system	|
 |stellar_effective_temp_k | Temperature of the star as modeled by a black body emitting the same total amount of electromagnetic radiation	 (K)|
-| stellar_effective_temp_upper_unc_k| |
-|stellar_effective_temp_lower_unc_k | |
-| stellar_effective_temp_limit_flag| |
+| stellar_effective_temp_upper_unc_k| Upper uncertainty in the effective stellar temperature (K)|
+|stellar_effective_temp_lower_unc_k | Lower uncertainty in the effective stellar temperature (K)|
+| stellar_effective_temp_limit_flag|Flag indicating whether the effective stellar temperature is based on a limit (-1=yes, 0=no) |
 |stellar_radius_solar_radius | Length of a line segment from the center of the star to its surface, measured in units of radius of the Sun	|
 |stellar_radius_upper_unc_solar_radius | |
 |stellar_radius_lower_unc_solar_radius | |
