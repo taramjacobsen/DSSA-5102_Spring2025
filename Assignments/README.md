@@ -48,21 +48,21 @@ Variable Descriptions
 |discovery_facility |Name of facility of planet discovery observations |
 | discovery_telescope |Name of telescope of planet discovery observations |
 |discovery_instrument | Name of instrument of planet discovery observations|
-| detected_by_radial_velocity| |
-|detected_by_pulsar_timing | |
-| detected_by_pulsation_timing_variations| |
-| detected_by_transit| |
-| detected_by_astrometry| |
-| detected_by_orbital_brightness_modulation| |
-|detected_by_microlensing | |
-| detected_by_eclipse_timing_variations| |
-| detected_by_imaging| |
-|detected_by_disk_kinematics | |
+| detected_by_radial_velocity|Flag indicating if the planet host star exhibits radial velocity variations due to the planet (1=yes, 0=no)	 |
+|detected_by_pulsar_timing |Boolean flag indicating if the planet host star exhibits pulsar timing variations due to the planet (1=yes, 0=no)	 |
+| detected_by_pulsation_timing_variations|Boolean flag indicating if the planet host star exhibits pulsation timing variations due to the planet (1=yes, 0=no)	 |
+| detected_by_transit| Flag indicating if the planet transits its host star (1=yes, 0=no)	|
+| detected_by_astrometry| Flag indicating if the planet host star exhibits astrometrical variations due to the planet (1=yes, 0=no)	|
+| detected_by_orbital_brightness_modulation|Flag indicating whether the planet exhibits orbital modulations on the phase curve (1=yes, 0=no)	 |
+|detected_by_microlensing | Boolean flag indicating if the planetary system acted as a lens during an observed microlensing event (1=yes, 0=no)	|
+| detected_by_eclipse_timing_variations| Flag indicating whether a circumbinary planet that orbits an eclipsing binary induces eclipse timing variations (ETVs) in the binary pair (1=yes, 0=no)	|
+| detected_by_imaging| Flag indicating if the planet has been observed via imaging techniques (1=yes, 0=no)	|
+|detected_by_disk_kinematics | Boolean flag indicating if the presence of the planet was inferred due to its kinematic influence on the protoplanetary disk of its host star (1=yes, 0=no)	|
 | is_controversial| |
-|orbital_period_days | |
-| orbital_period_upper_unc_days| |
-| orbital_period_lower_unc_days| |
-|orbital_period_limit_flag | |
+|orbital_period_days |Time the planet takes to make a complete orbit around the host star or system (days)	 |
+| orbital_period_upper_unc_days| Upper uncertainty in the time (in days) the planet takes to complete an orbit around its host star or system |
+| orbital_period_lower_unc_days| Lower uncertainty in the time (in days) the planet takes to complete an orbit around its host star or system |
+|orbital_period_limit_flag | Flag indicating whether the orbital period is based on a limit (-1=yes, 0=no)|
 | orbit_semi_major_axis_au| |
 |orbit_semi_major_axis_upper_unc_au | |
 | orbit_semi_major_axis_lower_unc_au| |
@@ -93,13 +93,35 @@ Variable Descriptions
 | planet_density_lower_unc_gcm3| |
 |planet_density_limit_flag | |
 |eccentricity | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+|eccentricity_upper_unc | |
+|eccentricity_lower_unc | |
+| eccentricity_limit_flag| |
+| insolation_flux_earth_flux| |
+| insolation_flux_upper_unc_earth_flux| |
+|insolation_flux_lower_unc_earth_flux | |
+|insolation_flux_limit_flag | |
+|equilibrium_temperature_k | |
+|equilibrium_temperature_upper_unc_k | |
+| equilibrium_temperature_lower_unc_k| |
+| equilibrium_temperature_limit_flag| |
+|inclination_deg | |
+|inclination_upper_unc_deg | |
+|inclination_lower_unc_deg | |
+| inclination_limit_flag| |
+|transit_midpoint_days | |
+|transit_midpoint_upper_unc_days | |
+|transit_midpoint_lower_unc_days | |
+|transit_midpoint_limit_flag | |
+| transit_midpoint_time_system| |
+| data_show_transit_timing_variations| |
+| impact_parameter| |
+|impact_parameter_upper_unc | |
+| impact_parameter_lower_unc| |
+|impact_parameter_limit_flag | |
+|transit_depth_percent | |
+|transit_depth_upper_unc_percent | |
+|transit_depth_lower_unc_percent | |
+|transit_depth_limit_flag | |
 | | |
 | | |
 | | |
@@ -111,34 +133,6 @@ Variable Descriptions
 | | |
 | | |
 
-eccentricity_upper_unc
-eccentricity_lower_unc
-eccentricity_limit_flag
-insolation_flux_earth_flux
-insolation_flux_upper_unc_earth_flux
-insolation_flux_lower_unc_earth_flux
-insolation_flux_limit_flag
-equilibrium_temperature_k
-equilibrium_temperature_upper_unc_k
-equilibrium_temperature_lower_unc_k
-equilibrium_temperature_limit_flag
-inclination_deg	inclination_upper_unc_deg
-inclination_lower_unc_deg
-inclination_limit_flag
-transit_midpoint_days
-transit_midpoint_upper_unc_days
-transit_midpoint_lower_unc_days
-transit_midpoint_limit_flag
-transit_midpoint_time_system
-data_show_transit_timing_variations
-impact_parameter
-impact_parameter_upper_unc
-impact_parameter_lower_unc
-impact_parameter_limit_flag
-transit_depth_percent
-transit_depth_upper_unc_percent
-transit_depth_lower_unc_percent
-transit_depth_limit_flag
 transit_duration_hours
 transit_duration_upper_unc_hours
 transit_duration_lower_unc_hours
