@@ -1,6 +1,6 @@
 This readme file was generated on 2025-02-13 by Tara Jacobsen
 
-GENERAL INFORMATION
+General Information
 ------------------------------------------------------------------------------
 
 Title: NASA's Confirmed Exoplanets:
@@ -11,13 +11,13 @@ Cleaned by: Tara Jacobsen
 
 Raw Data Source: NASA Exoplanet Archive https://exoplanetarchive.ipac.caltech.edu/index.html
 
-DATA OVERVIEW
+Data Overview
 ------------------------------------------------------------------------------
 
 As of December 10, 2024, when this dataset was last updated, a total of 5,788 exoplanets have been confirmed. This dataset contains detailed information about these exoplanets organized into over 200 columns, which are derived from a combination of sources.
 
 
-METHODOLOGICAL INFORMATION
+Methodological Information
 ------------------------------------------------------------------------------
 
 Data was originally extracted from NASA CSV file to SQL. It was further cleaned with Python. All categorical data was transformed into lowercase characters. All columns were ensured to be lowercase with '_' for spaces. Units and column descriptions can be found below. 
@@ -25,7 +25,7 @@ Data was originally extracted from NASA CSV file to SQL. It was further cleaned 
 Data is public domain. 
 
 
-VARIABLE DESCRIPTIONS
+Variable Descriptions
 ------------------------------------------------------------------------------
 
 | Variable | The variable indicates |
