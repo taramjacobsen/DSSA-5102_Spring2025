@@ -7,7 +7,7 @@ Title: NASA's Confirmed Exoplanets:
 
 Author: JamesKYChoi on Kaggle https://www.kaggle.com/datasets/jameskychoi/confirmed-exoplanet-latest-update-dataset 
 
-Cleaned by: Tara Jacobsen
+Additional cleaning by: Tara Jacobsen
 
 Raw Data Source: NASA Exoplanet Archive https://exoplanetarchive.ipac.caltech.edu/index.html
 
