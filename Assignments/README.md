@@ -31,14 +31,22 @@ Variable Descriptions
 | Variable | The variable indicates |
 |----------|----------|
 | planet_name | Planet name most commonly used in the literature | 
-| Row 2, Col 1 | Row 2, Col 2 | 
-| Row 3, Col 1 | Row 3, Col 2 | 
+| host_star_name  | Stellar name most commonly used in the literature | 
+| planet_letter | Letter assigned to the planetary component of a planetary system | 
+| hd_id | Name of the star as given by the Henry Draper Catalog |
+| hip_id | Name of the star as given by the Hipparcos Catalog |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
 
-planet_name                                           Planet name most commonly used in the literature	
-host_star_name                                        Stellar name most commonly used in the literature   
-planet_letter                                         Letter assigned to the planetary component of a planetary system	
-hd_id                                                 Name of the star as given by the Henry Draper Catalog	
-hip_id                                                Name of the star as given by the Hipparcos Catalog	
+                                                 	
 tic_id                                                Name of the star as given by the TESS Input Catalog	
 gaia_id                                               Name of the star as given by the Gaia Catalog	
 num_stars_in_system                                   Number of stars in the planetary system	
