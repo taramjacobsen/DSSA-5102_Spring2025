@@ -35,6 +35,71 @@ Variable Descriptions
 | planet_letter | Letter assigned to the planetary component of a planetary system | 
 | hd_id | Name of the star as given by the Henry Draper Catalog |
 | hip_id | Name of the star as given by the Hipparcos Catalog |
+| tic_id | Name of the star as given by the TESS Input Catalog|
+| gaia_id | Name of the star as given by the Gaia Catalog|
+|num_stars_in_system | Number of stars in the planetary system|
+| num_planets_in_system|Number of confirmed planets in the planetary system |
+| num_moons_in_system|Number of moons in the planetary system |
+| is_circumbinary| Flag indicating whether the planet orbits a binary system (1=yes, 0=no)|
+| discovery_method| Method by which the planet was first identified|
+| discovery_year| Year the planet was discovered|
+|discovery_publication_date  |Publication Date of the planet discovery referee publication	(datetime) |
+|discovery_locale |Location of observation of planet discovery (ground or space) |
+|discovery_facility |Name of facility of planet discovery observations |
+| discovery_telescope |Name of telescope of planet discovery observations |
+|discovery_instrument | Name of instrument of planet discovery observations|
+| detected_by_radial_velocity| |
+|detected_by_pulsar_timing | |
+| detected_by_pulsation_timing_variations| |
+| detected_by_transit| |
+| detected_by_astrometry| |
+| detected_by_orbital_brightness_modulation| |
+|detected_by_microlensing | |
+| detected_by_eclipse_timing_variations| |
+| detected_by_imaging| |
+|detected_by_disk_kinematics | |
+| is_controversial| |
+|orbital_period_days | |
+| orbital_period_upper_unc_days| |
+| orbital_period_lower_unc_days| |
+|orbital_period_limit_flag | |
+| orbit_semi_major_axis_au| |
+|orbit_semi_major_axis_upper_unc_au | |
+| orbit_semi_major_axis_lower_unc_au| |
+| orbit_semi_major_axis_limit_flag| |
+| angular_separation_mas| |
+| angular_separation_limit_flag| |
+| planet_radius_earth_radius| |
+|planet_radius_upper_unc_earth_radius | |
+|planet_radius_lower_unc_earth_radius | |
+| planet_radius_lower_unc_earth_radius| |
+|planet_radius_lower_unc_earth_radius | |
+|planet_radius_earth_limit_flag | |
+|planet_radius_jupiter_radius | |
+|planet_radius_upper_unc_jupiter_radius | |
+|planet_radius_lower_unc_jupiter_radius | |
+| planet_radius_jupiter_limit_flag| |
+|planet_mass_earth_mass | |
+| planet_mass_upper_unc_earth_mass| |
+| planet_mass_lower_unc_earth_mass| |
+|planet_mass_earth_limit_flag | |
+| planet_mass_jupiter_mass| |
+|planet_mass_upper_unc_jupiter_mass | |
+|planet_mass_lower_unc_jupiter_mass | |
+| planet_mass_jupiter_limit_flag| |
+| planet_mass_provenance| |
+| planet_density_gcm3| |
+|planet_density_upper_unc_gcm3 | |
+| planet_density_lower_unc_gcm3| |
+|planet_density_limit_flag | |
+|eccentricity | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
 | | |
 | | |
 | | |
@@ -46,63 +111,6 @@ Variable Descriptions
 | | |
 | | |
 
-                                                 	
-tic_id                                                Name of the star as given by the TESS Input Catalog	
-gaia_id                                               Name of the star as given by the Gaia Catalog	
-num_stars_in_system                                   Number of stars in the planetary system	
-num_planets_in_system                                 Number of confirmed planets in the planetary system	
-num_moons_in_system                                   Number of moons in the planetary system	
-is_circumbinary                                       Flag indicating whether the planet orbits a binary system (1=yes, 0=no)	
-discovery_method                                      Method by which the planet was first identified	
-discovery_year                                        Year the planet was discovered	
-discovery_publication_date                            Publication Date of the planet discovery referee publication	(datetime)
-discovery_locale                                      Location of observation of planet discovery (ground or space)	
-discovery_facility                                    Name of facility of planet discovery observations	
-discovery_telescope                                   Name of telescope of planet discovery observations	
-discovery_instrument                                  Name of instrument of planet discovery observations	
-detected_by_radial_velocity
-detected_by_pulsar_timing
-detected_by_pulsation_timing_variations
-detected_by_transit
-detected_by_astrometry
-detected_by_orbital_brightness_modulation
-detected_by_microlensing
-detected_by_eclipse_timing_variations
-detected_by_imaging
-detected_by_disk_kinematics
-is_controversial
-orbital_period_days
-orbital_period_upper_unc_days
-orbital_period_lower_unc_days
-orbital_period_limit_flag
-orbit_semi_major_axis_au
-orbit_semi_major_axis_upper_unc_au
-orbit_semi_major_axis_lower_unc_au
-orbit_semi_major_axis_limit_flag
-angular_separation_mas
-angular_separation_limit_flag
-planet_radius_earth_radius
-planet_radius_upper_unc_earth_radius
-planet_radius_lower_unc_earth_radius
-planet_radius_earth_limit_flag
-planet_radius_jupiter_radius
-planet_radius_upper_unc_jupiter_radius
-planet_radius_lower_unc_jupiter_radius
-planet_radius_jupiter_limit_flag
-planet_mass_earth_mass
-planet_mass_upper_unc_earth_mass
-planet_mass_lower_unc_earth_mass
-planet_mass_earth_limit_flag
-planet_mass_jupiter_mass
-planet_mass_upper_unc_jupiter_mass
-planet_mass_lower_unc_jupiter_mass
-planet_mass_jupiter_limit_flag
-planet_mass_provenance
-planet_density_gcm3
-planet_density_upper_unc_gcm3
-planet_density_lower_unc_gcm3
-planet_density_limit_flag
-eccentricity
 eccentricity_upper_unc
 eccentricity_lower_unc
 eccentricity_limit_flag
