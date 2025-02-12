@@ -14,7 +14,7 @@ Raw Data Source: NASA Exoplanet Archive https://exoplanetarchive.ipac.caltech.ed
 Data Overview
 ------------------------------------------------------------------------------
 
-As of December 10, 2024, when this dataset was last updated, a total of 5,788 exoplanets have been confirmed. This dataset contains detailed information about these exoplanets organized into over 200 columns, which are derived from a combination of sources.
+As of December 10, 2024, when this dataset was last updated, a total of 5,788 exoplanets have been confirmed. This dataset contains detailed information about these exoplanets organized into over 200 columns.
 
 
 Methodological Information
