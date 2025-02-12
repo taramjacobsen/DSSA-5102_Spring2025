@@ -11,10 +11,14 @@ Additional cleaning by: Tara Jacobsen
 
 Raw Data Source: NASA Exoplanet Archive https://exoplanetarchive.ipac.caltech.edu/index.html
 
+Data of access: 2025-01-30
+
 Data Overview
 ------------------------------------------------------------------------------
 
-As of December 10, 2024, when this dataset was last updated, a total of 5,788 exoplanets have been confirmed. This dataset contains detailed information about these exoplanets organized into over 200 columns. 
+As of December 10, 2024, when this dataset was last updated, a total of 5,788 exoplanets have been confirmed. This dataset contains detailed information about these exoplanets organized into over 200 columns. Data is regularly updated, but is not a live dataset. 
+
+Data is originally sourced from the NASA Exoplanet Archive. "The NASA Exoplanet Archive collects and maintains many sets of parameters for planets, planetary orbits, and host systems as they are published in the refereed literature." (https://exoplanetarchive.ipac.caltech.edu/docs/pscp_about.html)
 
 
 Methodological Information
@@ -24,12 +28,11 @@ Data was originally collected by NASA and stored by the NASA Exoplanet Archive. 
 
 The data was later cleaned again with Python. All categorical data was transformed into lowercase characters. All columns were ensured to be lowercase with '_' for spaces. Units and column descriptions can be found below. 
 
-Data validation (DV) summaries are provided by the Kepler Mission that show the results of the data validation tests conducted for the object. (https://exoplanetarchive.ipac.caltech.edu/docs/ICEexohelp.html)
-
-
+"Data validation (DV) summaries are provided by the Kepler Mission that show the results of the data validation tests conducted for the object." (https://exoplanetarchive.ipac.caltech.edu/docs/ICEexohelp.html)
 
 Data is public domain. 
 
+Units are included in the column description, where applicable. 
 
 Column Descriptions
 ------------------------------------------------------------------------------
