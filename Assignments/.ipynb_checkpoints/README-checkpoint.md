@@ -26,7 +26,7 @@ Methodological Information
 
 Data was originally collected by NASA and stored by the NASA Exoplanet Archive. It was extracted from the NASA CSV file into a SQL Database where a view was created to extract over 200 columns.
 
-The data was later cleaned again with Python. All categorical data was transformed into lowercase characters. All columns were ensured to be lowercase with '_' for spaces. Units and column descriptions can be found below. 
+The data was later cleaned again with Python. All categorical data was transformed into lowercase characters. All columns were ensured to be lowercase with '_' for spaces. Data was checked for duplicated. Few choice columns with large numbers of NA values were removed, including occultation depth-related columns. Discovery publication date was changed to a datetime. All strings within the dataset were made lowercase. 
 
 "Data validation (DV) summaries are provided by the Kepler Mission that show the results of the data validation tests conducted for the object." (https://exoplanetarchive.ipac.caltech.edu/docs/ICEexohelp.html)
 
