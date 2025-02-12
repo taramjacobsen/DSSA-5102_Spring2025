@@ -14,21 +14,27 @@ Raw Data Source: NASA Exoplanet Archive https://exoplanetarchive.ipac.caltech.ed
 Data Overview
 ------------------------------------------------------------------------------
 
-As of December 10, 2024, when this dataset was last updated, a total of 5,788 exoplanets have been confirmed. This dataset contains detailed information about these exoplanets organized into over 200 columns.
+As of December 10, 2024, when this dataset was last updated, a total of 5,788 exoplanets have been confirmed. This dataset contains detailed information about these exoplanets organized into over 200 columns. 
 
 
 Methodological Information
 ------------------------------------------------------------------------------
 
-Data was originally extracted from NASA CSV file to SQL. It was further cleaned with Python. All categorical data was transformed into lowercase characters. All columns were ensured to be lowercase with '_' for spaces. Units and column descriptions can be found below. 
+Data was originally collected by NASA and stored by the NASA Exoplanet Archive. It was extracted from the NASA CSV file into a SQL Database where a view was created to extract over 200 columns.
+
+The data was later cleaned again with Python. All categorical data was transformed into lowercase characters. All columns were ensured to be lowercase with '_' for spaces. Units and column descriptions can be found below. 
+
+Data validation (DV) summaries are provided by the Kepler Mission that show the results of the data validation tests conducted for the object. (https://exoplanetarchive.ipac.caltech.edu/docs/ICEexohelp.html)
+
+
 
 Data is public domain. 
 
 
-Variable Descriptions
+Column Descriptions
 ------------------------------------------------------------------------------
 
-| Variable | The variable indicates |
+| Column | The column indicates... |
 |----------|----------|
 | planet_name | Planet name most commonly used in the literature | 
 | host_star_name  | Stellar name most commonly used in the literature | 
@@ -234,3 +240,5 @@ Variable Descriptions
 | h_magnitude_2mass |Brightness of the host star as measured using the H (2MASS) band in units of magnitudes	 |
 | h_magnitude_2mass_upper_unc |Upper uncertainty in the K (2MASS) band magnitude |
 | h_magnitude_2mass_lower_unc |Lower uncertainty in the K (2MASS) band magnitude |
+
+Column descriptions courtesy of NASA: https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html 
